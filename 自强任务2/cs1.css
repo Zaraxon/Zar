@@ -1,0 +1,243 @@
+		body{
+			margin: 0px;
+		}
+		code{
+			color: #555;
+			padding: 5px;
+			border-radius: 3px;
+			background-color:#f8f8f8;
+			border-color:#dfdfdf;
+			border-style:solid;
+			border-width:1px;
+			font-family:Courier,monospace;
+			font-weight:400;
+			font-size:18px;
+			line-height:1.8;
+		}
+		#ready{
+			padding-top: 110px;
+			margin: 0;
+			line-height: 1.4;
+			text-align: center;
+			font-weight:700;
+			font-size:18px;
+			font-family: sans-serif;
+			letter-spacing: 3px;
+			color: #aaaaaa;
+			margin: 0;
+		}
+		#jva{
+			margin: 0;
+			font-size:72px;
+			line-height: 1.2;
+			font-weight:700;
+			font-family: sans-serif;
+			color:#fff;
+			text-align: center;
+		}
+		#text{
+			text-align: center;
+			font-weight:200;
+			font-size:18px;
+			line-height: 1.8;
+			color: #aaaaaa;
+			font-family: inherit;
+			text-align: center;
+			letter-spacing: normal;
+		}
+		#head{
+			background-color: Black;
+			width:100%;
+			height:100px;
+		}
+		#head_r{
+			position: absolute;
+			right: 0;
+			width: 35%;
+			height: 100%;
+			top: 50px;
+		}
+		.pinkbutton{
+			position: relative;
+			text-align: center;
+			display:inline-block;
+			font-family:sans-serif;
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 1.1;
+			padding: 15px 30px 15px 30px;
+			white-space: normal;
+			border-radius: 5px;
+			color: #fff;
+			transition: box-shadow .3s ease-in-out;
+			margin:0 0 20px;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			background-size: auto;
+			background-color:#e80a89;
+			background-attachment:scroll; 
+			background-repeat:no-repeat;
+		}
+		.head_t{
+			display:inline!important;
+			font-size: 13px;
+			margin-left: 24px;
+			color: #fff;
+			text-decoration: none;
+			cursor: pointer;
+			-moz-box-sizing:inherit;
+			box-sizing:inherit;
+			font-family:sans-serif;
+			-moz-osx-font-smoothing:grayscale;
+			-webkit-font-smoothing:antialiased;
+		}
+		#body_up{
+			background-image: url(J.va.jpg);
+			background-position: center;
+			background-size: 100%;
+			background-repeat: no-repeat;
+			width: 100%;
+			height: 650px;
+		}
+		#trans{
+			width:100%;
+			height:100px;
+			background:linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
+			position: absolute;
+			bottom: 0px;
+		}
+		#Input{
+			width: 750px;
+			height: 34px;
+			position: relative;
+			left: 350px;
+			background: rgba(18,18,18,.9);
+			border: 0;
+			padding: 10px 10px 15px 40px;
+			color: white;
+			font-size: 22px;
+			font-weight: 500;
+			transition: background .4s linear;
+			font-family: monospace;
+			outline: 0;
+			border-radius: 0;
+			box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);
+			margin: 0 0 16px;
+			display: block;
+			text-align: center;
+			font-style: normal;
+			line-height: 1.5;
+			cursor: auto;
+			-moz-transition:border-color .15s linear,background .15s linear;
+			-ms-transition:border-color .15s linear,background .15s linear;
+			-o-transition:border-color .15s linear,background .15s linear;
+		}
+		#Input_arrow{
+			font-size: 22px;
+			font-weight: 500;
+			font-family: monospace;
+			display:inline-block;
+			width: 15px;
+			height: 15px;
+			border-top:2px solid #fff;
+			border-right:2px solid #fff;
+			transform: rotate(45deg);
+			top:65%;
+			left:24%;
+			margin-top: -9px;
+			box-sizing: inherit;
+			-moz-box-sizing:inherit;
+			position: absolute;
+			color: #ccc;
+			cursor: auto;
+
+		}
+		#lowa{
+			background-image: url(lowb.jpg);
+			width: 33%;
+			height: 447px;
+			float: left;
+		}
+		#lowb{
+			float: left;
+			background-image: url(lowc.jpg);
+			width: 34%;
+			height: 447px;
+		}
+		.introduction{
+			margin: 0;
+			padding-top: 100px;
+			margin: 0;
+			line-height: 1.1;
+			text-align: center;
+			font-weight:700;
+			font-size:15px;
+			font-family: sans-serif;
+			letter-spacing: 3px;
+			color: #aaaaaa;
+			margin: 0;		
+		}
+		.logo{
+			position: absolute;
+			left: 10px;
+			top: 10px;
+			width: 100px;
+			height: 40px;
+		}
+		.low_t{
+			margin: 0;
+			font-size: 32px;
+			font-family: inherit;
+			line-height: 30px;
+			font-weight: 300;
+			color: #fff;
+			text-align: center;
+		}
+		#lowc{
+			float: left;
+			background-image: url(lowa.jpg);
+			width: 33%;
+			height: 447px;
+		}
+		#foot{
+			clear: both;
+			background-color: Black;
+			width: 100%;
+			height: 120px;
+		}
+		#bottomtext2{
+
+		}
+		.head_t1{
+			display:inline!important;
+			font-size: 12px;
+			margin-left: 24px;
+			color: #fff;
+			text-decoration: none;
+			cursor: pointer;
+			-moz-box-sizing:inherit;
+			box-sizing:inherit;
+			font-family:sans-serif;
+			-moz-osx-font-smoothing:grayscale;
+			-webkit-font-smoothing:antialiased;		
+			float: right;	
+			position: relative;
+			right: 20px;
+		}
+		.introduction1{
+			position: absolute;
+			left: 300px;
+			margin: 0;
+			line-height: 1.1;
+			text-align: center;
+			font-weight:700;
+			font-size:10px;
+			font-family: sans-serif;
+			letter-spacing: 1px;
+			color: #aaaaaa;	
+		}
+		#bottomimg{
+			position: relative;
+			left: 20px;
+			top: 20px;
+		}
